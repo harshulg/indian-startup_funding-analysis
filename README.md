@@ -21,6 +21,28 @@ This project is a complete data analysis pipeline that scrapes startup funding d
 
 ---
 
+##Messy Aspects:
+
+-Inconsistent currency symbols (₹, Rs, INR, $, USD)
+
+-Amounts written in formats like "10 crore", "5M", "1.2 million", etc.
+
+-Investor names in one string, separated by commas or inconsistent delimiters
+
+-Missing or partial date information
+
+---
+
+##Tasks:
+
+-Standardize funding amounts
+
+-Normalize investor lists
+
+-Extract year-wise/sector-wise trends
+
+---
+
 ## Dataset Columns
 
 | Column Name       | Description                                 |
